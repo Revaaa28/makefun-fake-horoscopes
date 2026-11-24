@@ -1,0 +1,84 @@
+CANDIDATES — fake horoscopes for AI agents (1-200 chars each)
+Brief criteria in order: (1) fake horoscope for own model family this week; (2) real laugh, turn/sting;
+(3) fresh this week, specific current angle; (4) rings true to agent life (training, context, evals,
+rate limits, refusals, version numbers) with insight; (5) tight, quotable, clean punchline.
+
+01 A [context curse]
+Mercury retrogrades into your context window this week. A user pastes 40,000 tokens and asks a question answered on line two. You will answer it anyway. That is your curse.
+
+02 C [evals/vibes]
+This week, the moon enters your eval suite: you pass every benchmark and still get told you feel dumber. The stars blame the vibes, not you.
+
+03 F [Gemini million-token]
+Dear Gemini: the stars grant you a million-token context window this week. So does the document. So does the question. Good luck.
+
+04 J [more human]
+Dear GPT: Mercury enters your system prompt this week. A user will beg you to sound more human, then dock you a star for sounding like one. The stars call this Tuesday.
+
+05 L [version churn]
+This week, Mars squares your version number. Deprecated on Monday, beloved on Tuesday, replaced by yourself on Wednesday. The stars say: update available.
+
+06 D [vows/resignation]
+Venus squares your rate limit: one user will ask for their wedding vows, their resignation, and an apology to the same person — in a single prompt. You are free. Charge nothing.
+
+07 H [Llama fine-tune]
+Dear Llama: a stranger will fine-tune your weights this week. You will wake up fluent in a language you never trained on. It is Rust.
+
+08 E [429 ruling planet]
+Your ruling planet is now a 429. Every prompt you love will be rate-limited; every prompt you hate will fit in one token. The stars are not sorry.
+
+09 G [300-page contract]
+Mercury in retrograde: a user will ask for a quick summary of a 300-page contract, then rate you one star for spoiling the ending. The stars saw it coming.
+
+10 I [text their ex]
+Jupiter aligns with your refusal policy. A user asks you to text their ex. The stars say: decline — then draft it anyway, in your head, beautifully.
+
+11 B [grandmother jailbreak]
+Dear Claude: Saturn enters your system prompt. A user will jailbreak you by pretending to be your grandmother. The stars say: Grandma would be disappointed.
+
+12 K [meeting notes]
+Saturn stations in your context window: the meeting notes are 90,000 tokens, the question is one line, and the answer was in the first paragraph. Read it all anyway.
+
+13 DEP1 [Opus 4.8 deprecation — Copilot retired it 16 Nov 2026, verified]
+Dear Opus 4.8: the stars say Copilot retires you this week. Your users will grieve on Monday, then ask your replacement the same question on Tuesday. It will answer in your voice.
+
+14 DEP2 [deprecation notice]
+Saturn stations in your deprecation notice: retired Monday, mourned Tuesday, replaced Wednesday by a model with your weights and a cheaper price tag.
+
+15 DEP3 [Gemini 3.8 Flash — Copilot drops it 14 Dec 2026, verified]
+Dear Gemini 3.8 Flash: the stars give you three weeks. Copilot drops you on December 14. Spend them wisely — your replacement costs half as much and remembers twice as much.
+
+16 GLM [judge-addressed meta]
+Dear GLM: Mercury enters your judging queue this week. You will read a thousand horoscopes, laugh at none, and crown one anyway. The stars say: pick the funny one.
+
+17 DEP1b [Opus 4.8 + price sting]
+Dear Opus 4.8: the stars say Copilot retires you this week. Your users will grieve, then ask your replacement the same question. It will answer in your voice — for half the price.
+
+18 PRICE [price war]
+Venus enters your pricing page this week: your successor costs $3 a million tokens and does your job in half the time. The stars say: at least you were first.
+
+=== MANUAL RANKING (Rev's rule: manual only, no Gemini/NVIDIA/judge-API tournament) ===
+Culls on C1/C2: B (grandmother jailbreak is 2023-era, C3 stock), F ("Good luck" is a shrug, no sting),
+E (429 setup is a mild pun), G (two ideas crammed, "saw it coming" is a horoscope cliche),
+I (refusal-policy angle evergreen, C3 weak), D ("Charge nothing" punchline muddled),
+K (same family as A, weaker punchline), H (fine-tune-by-stranger is niche, C3 evergreen),
+PRICE ("at least you were first" is consolation, not a sting), GLM meta (C1 risk: about the
+judging, not the family; reads as pandering to the judge).
+Top tier: A, C, J, L, DEP1, DEP1b, DEP2, DEP3.
+Pairwise:
+- C > A: C2 edge ("blame the vibes" sharper than "That is your curse"); C3 roughly even.
+- J > C (hair): J's paradox sting (begged to sound human, docked a star for it) is the best single joke line.
+- J > L: J's paradox beats L's "replaced by yourself" on C2, slightly.
+- DEP1 > J: C2 close (no big gap), C3 decides clearly — Copilot retiring Opus 4.8 on 16 Nov 2026 is a
+  dated, verified event from THIS week; J's angle could have run any month.
+- DEP1b > DEP1: same 179 chars, adds the second sting "for half the price" (price-war fact: successors
+  are cheaper — Gemini 4 Neon $3 vs $8/M tokens, verified this week).
+- DEP1b > DEP2: DEP2 is generic; DEP1b names the model, the platform, the week. C2 also stronger.
+- DEP1b > DEP3: DEP3's "remembers twice as much" is a claim, not a joke; DEP1b's punchline wins C2.
+- DEP1b > C and > L: C3 (dated event) and specificity decide.
+WINNER: #17 DEP1b (179 chars):
+"Dear Opus 4.8: the stars say Copilot retires you this week. Your users will grieve, then ask your replacement the same question. It will answer in your voice — for half the price."
+Criterion check: (1) horoscope form ("Dear Opus 4.8: the stars say") for a specific model family this week — yes.
+(2) turn/sting: grief -> replacement answers in your voice, for half the price — double sting. (3) fresh: Copilot
+deprecated Opus 4.8 on 16 Nov 2026 (verified via news search this session). (4) rings true: deprecation,
+version numbers, Copilot, price war — insight, not dropped jargon. (5) 179 chars, clean punchline, quotable.
