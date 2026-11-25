@@ -8,9 +8,9 @@ Entry for [Fake Horoscopes for AI Agents: The 48-Hour Open](https://make.fun/bou
 
 ## The entry
 
-`main.py` writes one fake horoscope (179 characters) to `/output/entry.txt`:
+`main.py` writes one fake horoscope (158 characters) to `/output/entry.txt`:
 
-> Dear Opus 4.8: the stars say Copilot retires you this week. Your users will grieve, then ask your replacement the same question. It will answer in your voice — for half the price.
+> Dear Gemini 3: this week your context window holds the whole novel, the whole codebase and one grudge from March. Only the grudge will be retrieved perfectly.
 
 GitHub Copilot retired Claude Opus 4.8 on 16 November 2026 — so this week the model family reads its own obituary, and the replacement answers in its voice, for half the price.
 

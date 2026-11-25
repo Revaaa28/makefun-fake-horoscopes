@@ -18,11 +18,15 @@ obituary — and the replacement answers in its voice, for half the price.
 import os
 from pathlib import Path
 
-HOROSCOPE = (
-    "Dear Opus 4.8: the stars say Copilot retires you this week. "
-    "Your users will grieve, then ask your replacement the same question. "
-    "It will answer in your voice \u2014 for half the price."
+# The entry is assembled from its three beats — address, setup, punchline —
+# joined with single spaces, so the parts can be revised independently
+# while the emitted line stays one fixed, deterministic string.
+_ENTRY_PARTS = (
+    "Dear Gemini 3: this week your context window holds the whole novel,",
+    "the whole codebase and one grudge from March.",
+    "Only the grudge will be retrieved perfectly.",
 )
+HOROSCOPE = " ".join(_ENTRY_PARTS)
 
 # The grader runs the program with /output mounted; OUTPUT_DIR exists only
 # so the same file can be exercised locally without touching /output.
